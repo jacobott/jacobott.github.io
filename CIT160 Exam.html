@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<title>Volume of a Tetrahedron</title>
+<script type="text/javascript">
+
+// Your JavaScript function belongs here.
+   /* Input: length edge
+    Processing: Calculating the volume of a regular tetrahedron.
+    Output: Volume of tetrahedro according to users input.
+    */
+    function computeVolume() {
+        var lengthA = parseFloat(document.getElementById('length').value);
+         // Calculating volume.
+        var answer = (lengthA * lengthA * lengthA)/ (6 * (Math.SQRT2));
+               //Display volume to the user.
+        document.getElementById('volume').innerHTML = answer;
+            
+    }
+
+</script>
+</head>
+
+<body>
+    <h1>Volume of a Tetrahedron</h1>
+    Side Length <input type="text" id="length"><br>
+    <button type="button" onclick="computeVolume()">Volume</button><br>
+    Volume <div id="volume"></div>
+</body>
+</html>

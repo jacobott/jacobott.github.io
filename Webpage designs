@@ -1,0 +1,26 @@
+<<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<title>The Whats up Program</title>
+<script type="text/javascript">
+    function acreToFeet() {
+        //Input: amount of arces
+        //Processing: convert arces to feet
+        //Output: ft^2
+        var arces = parseFloat(document.getElementById('arceInput').value);
+        
+        var feet = arces * 43560;
+        document.getElementById('output').innerHTML = feet;
+    }
+    </script>
+    </head>
+    <body>
+        Enter Arces: <input type="text" id='arceInput'>
+    <button type="button" onclick="acreToFeet()"> Convert! </button>
+    <div id='output'></div>
+    
+    
+    
+    </body>
+</html>
