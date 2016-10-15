@@ -1,0 +1,67 @@
+body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: #2789e5;
+}
+#title {
+    text-align: center;
+    font-size: 3em;
+    background-color: #8e98a0;
+    border-radius: 10px;
+   
+    
+}
+#local {
+    text-align: center;
+    font-size: 1.5em;
+    background-color:#d2e1ef;
+     border-radius: 30px;
+    
+}
+#curTemp {
+    font-size: 6em;
+    padding: 18px;
+    position: relative;
+    bottom: .75em;
+    border-radius: 10px;
+    background-color: lightgrey;
+}
+.cloud {
+    width: 40%;
+    position: relative;
+    bottom: 16em;
+    left: 12em;
+}
+.center {
+    font-size: 1.7em;
+    padding: 5px;
+    position: relative;
+    bottom: .7em;
+    color: black;
+}
+.temp {
+    text-align: center;
+    font-size: 4.5em;
+    display: inline;
+    position: relative;
+    bottom: .1em;
+   
+}
+.s {
+    font-size: 6em;
+    display: inline;
+    
+}
+div {
+    text-align: center;
+    position: relative;
+    bottom: 15em;
+    background-color:#59aeff;
+     border-radius: 10px;
+}
+.icons {
+    width:48%;
+    position: relative;
+    bottom: 14.5em;
+}
