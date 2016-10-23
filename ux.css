@@ -1,9 +1,7 @@
-h1 { text-align: center;
+.jumotron {
+    background-color: #b5dbff;
+    color: white;
 }
-.logo {
-    
-    width: 20%;
-}
-.ipad {
-    width: 20%;
+.name {
+    font-family:cursive;
 }

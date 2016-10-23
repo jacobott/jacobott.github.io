@@ -1,9 +1,11 @@
+
 body {
     width: 100%;
     margin: 0px;
     padding: 0px;
     background-color: #2789e5;
 }
+    
 #title {
     text-align: center;
     font-size: 3em;
@@ -28,9 +30,9 @@ body {
     background-color: lightgrey;
 }
 .cloud {
-    width: 40%;
+    width: 170px;
     position: relative;
-    bottom: 16em;
+    bottom: 17em;
     left: 12em;
 }
 .center {

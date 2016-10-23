@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+    <meta charset="utf-8">
+    <title>Chapter 6</title>
+    
+    <script type="text/javascript">
+        /* Input: height of driver and passenger optional
+        Processing: Determine if the driver may drive and optional passenger come
+        Output: "Enjoy the Ride" or "Sorry, to drive you must be ___ tall.
+        */
+        function schoolYear() {
+            var subTotal = parseFloat(document.getElementById('total').value);
+            
+            var dayOfWeek = new Date().getDay();
+            
+            var tax;
+            var total;
+            var discount;
+            
+            if (subTotal > 50 && (dayOfWeek == 2 || dayOfWeek == 3)) {
+                discount = subTotal * .1;
+                tax = (subTotal - discount) * .6;
+                total = (subTotal - discount) + tax;
+            }  
+            else {
+                subTotal 
+            }
+            document.getElementById('output').innerHTML = message;
+        }
+    
+        
+        if (credits )
+        
+    
+    </script>
+    </head>
+
+    <body>
+        <h1> What School year are you in?</h1>
+       Enter Credits
+            <input type="text" id ="credits">
+        <br>
+        Enter name:
+            <input type="text" id = "name">
+        
+        <button type="button" onclick="schoolYear()">Check School Year</button>
+        <div id ="output"></div>
+        
+        
+    
+    
+    </body>
+    
+
+</html>
