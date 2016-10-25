@@ -9,7 +9,7 @@
         Processing: Determine if the driver may drive and optional passenger come
         Output: "Enjoy the Ride" or "Sorry, to drive you must be ___ tall.
         */
-        function schoolYear() {
+        function total() {
             var subTotal = parseFloat(document.getElementById('total').value);
             
             var dayOfWeek = new Date().getDay();
@@ -18,33 +18,28 @@
             var total;
             var discount;
             
-            if (subTotal > 50 && (dayOfWeek == 2 || dayOfWeek == 3)) {
+            if ((subTotal > 50) && (dayOfWeek == 2 || dayOfWeek == 3)) {
                 discount = subTotal * .1;
-                tax = (subTotal - discount) * .6;
+                tax = (subTotal - discount) * .06;
                 total = (subTotal - discount) + tax;
             }  
-            else {
-                subTotal 
-            }
-            document.getElementById('output').innerHTML = message;
+        else {
+            total = subTotal * 1.06;
         }
-    
-        
-        if (credits )
+            
+            
+            document.getElementById('output').innerHTML = total;
+        }
         
     
     </script>
     </head>
 
     <body>
-        <h1> What School year are you in?</h1>
-       Enter Credits
-            <input type="text" id ="credits">
+        <h1> What is subtotal?</h1>
+            <input type="text" id ="total">
         <br>
-        Enter name:
-            <input type="text" id = "name">
-        
-        <button type="button" onclick="schoolYear()">Check School Year</button>
+        <button type="button" onclick="total()">Check Price</button>
         <div id ="output"></div>
         
         
