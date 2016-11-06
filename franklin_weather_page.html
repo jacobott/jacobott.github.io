@@ -5,7 +5,7 @@
 <link type ="text/css" rel="stylesheet" href="weather1.css">
 </head>
 <body>
-<header class="header">
+<header>
 <h1>Ever Weather</h1>
 </header>
     
@@ -14,6 +14,7 @@
 <div class="row">
 
 <nav class="col-3 menu">
+    <noscript>JavaScript is not enabled. For navigation visit the <a href="sitemap.html">Site Map</a></noscript>
 <ul>
 <li><strong>Local Weather</strong></li>
 <li><strong>Maps</strong></li>
@@ -26,7 +27,7 @@
 <main class="col-6">
 <h1 id = "yourWeather">Your Weather: Franklin, Idaho</h1>
     <p id = "temp"> 75&#8457; </p>
-<img src = "sunny.png" id = "cloud">
+<img src = "sunny.png" id = "cloud" alt ="Sunny Day Icon">
 
 </main>
     
@@ -47,6 +48,10 @@
 <footer class="footer">
 <p>Contact Us</p>
 </footer>
+      
+  <script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+    <script src ="modules.js"></script>
+
 
 </body>
 </html>

@@ -1,0 +1,49 @@
+* {
+    background-color: #858a91;
+}
+#trees {
+    width: 100%;
+    position: relative;
+    bottom: 35px;
+}
+h1 {
+    font-family: "Bebas";
+    font-size: 50px;
+    background-color: #b2b8c1;
+    padding: 20px;
+}
+#local {
+    position: relative;
+    bottom: 75px;
+    background: #b2b8c1;
+    font-size: 30px;
+    font-family: "Bebas";
+}
+body {
+    width: 95%;
+    
+}
+#title {
+    letter-spacing: 4px;
+}
+.content {
+    padding: 20px;
+    background-color: white;
+    position: relative;
+    bottom: 105px;
+    font-size: 30px;
+    font-family: "Bebas"; 
+}
+.content:hover {
+    background-color: black;
+    color: white;
+    
+}
+#goblin {
+    position: relative;
+    bottom: 125px;
+}
+#donut {
+    position: relative;
+    bottom: 145px;
+}
